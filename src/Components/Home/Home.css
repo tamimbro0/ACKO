@@ -1,0 +1,491 @@
+.home {
+  background-color: #EBEBEB;
+
+  padding: 80px 40px;
+
+}
+
+.homeTopDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: -60px;
+}
+
+.leftHomeTopDiv h2 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.rightHomeTopDiv {
+  display: flex;
+  gap: 60px;
+}
+
+.premium-badge {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.badge-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sub-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  margin-top: -3px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .homeTopDiv {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+
+/* ........................ */
+
+
+/* Card   */
+
+.allInsuranceCard {
+  padding: 80px 120px;
+  margin-top: -70px;
+  display: flex;
+  gap: 26px;
+
+}
+
+
+.leftInsuranceCard {
+  position: relative;
+  cursor: pointer;
+  width: 360px;
+  height: 480px;
+  background-color: #F4F4F5;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.leftInsuranceCard:hover {
+  transform: translateY(-8px);
+  border: 1px solid #C3AFF8;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.leftInsuranceCardMainTitle {
+  font-weight: 550;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+
+.leftInsuranceCardPragrap {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #a9a5a5;
+}
+
+
+
+
+.leftInsuranceCardConverage {
+  background: linear-gradient(90deg,
+      rgb(216, 180, 254) 0%,
+      rgb(250, 232, 255) 100%);
+  width: fit-content;
+  padding: 6px 12px;
+  margin-top: 8px;
+
+  border-radius: 20px;
+}
+
+.ConverageTital {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+}
+
+
+.leftInsuranceCardImg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+
+}
+
+.arrowRightIcon {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+
+
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  border: 1px solid #131212;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+}
+
+.leftInsuranceCard:hover .arrowRightIcon {
+  background-color: black;
+  color: white;
+}
+
+.leftInsuranceCard:hover .arrowRightIcon svg {
+  color: white;
+}
+
+
+/* Right Div  */
+
+.rightBottomRow {
+  display: flex;
+  gap: 26px;
+}
+
+.rightSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.rightAllDivCard {
+  display: flex;
+}
+
+
+
+.rightFastTopDiv {
+  position: relative;
+  cursor: pointer;
+  width: 380px;
+  height: 240px;
+  background-color: #F4F4F5;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.rightFastTopDiv:hover {
+  transform: translateY(-8px);
+  border: 1px solid #C3AFF8;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.carInsurerCardTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.carInsurerCardSimplePrice {
+  color: #6815E5;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.carInsurerCardPragrap {
+  font-size: 13px;
+  font-weight: 700;
+  color: #7B7B7B;
+}
+
+
+.carInsuranceImgDiv {
+
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+  display: flex;
+
+}
+
+.carInsuranceImgDivImg {
+  width: 120px;
+  object-fit: contain;
+  right: 800px;
+}
+
+.arrowRightSectinIcon {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+
+
+  width: 60px;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+
+.rightFastTopDiv:hover .arrowRightSectinIcon {
+  background-color: black;
+  color: white;
+}
+
+.rightFastTopDiv:hover .arrowRightSectinIcon svg {
+  color: white;
+}
+
+
+/* Health Section Card  */
+
+
+.rightSecondTopDiv {
+  position: relative;
+  cursor: pointer;
+  width: 380px;
+  height: 240px;
+  background-color: #F4F4F5;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  gap: 30px;
+  margin-left: 27px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.rightSecondTopDiv:hover {
+  transform: translateY(-8px);
+  border: 1px solid #C3AFF8;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.healthInsuranceCardTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+
+}
+
+.hospitalBillTitle {
+  color: #6815E5;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+
+}
+
+.healthInsuranceCardParagrap {
+  font-size: 13px;
+  font-weight: 700;
+  color: #7B7B7B;
+
+}
+
+.healthInsuranceCardImg {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  display: flex;
+
+}
+
+.ImgHealthInsuranceCardImg {
+  width: 170px;
+  object-fit: contain;
+  right: 800px;
+
+}
+
+.arrowRightHealthCardIcon {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+
+
+  width: 60px;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+
+}
+.rightSecondTopDiv:hover .arrowRightHealthCardIcon {
+  background-color: black;
+  color: white;
+}
+
+.rightSecondTopDiv:hover .arrowRightHealthCardIcon svg {
+  color: white;
+}
+
+
+
+
+/* Right Div Down */
+
+.rightDownAllDiv{
+  position: relative;
+  cursor: pointer;
+  width: 245px;
+  height: 237px;
+  background-color: #F4F4F5;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  gap: 30px;
+  margin-left: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.rightDownAllDiv:hover{
+  transform: translateY(-8px);
+  border: 1px solid #C3AFF8;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.bikeinsuranceDivTitle{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.bikeInsuranceDivParagrap{
+  font-size: 13px;
+  font-weight: 700;
+  color: #7B7B7B;
+}
+
+.bikeinsuranceDivImg{
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  display: flex;
+}
+
+.ImgBikeInsuranceDivImg{
+  width: 170px;
+  object-fit: contain;
+  right: 800px;
+
+
+}
+
+.arrowRightBikeCardIcon{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+
+
+  width: 60px;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.rightDownAllDiv:hover .arrowRightBikeCardIcon {
+  background-color: black;
+  color: white;
+}
+
+.rightDownAllDiv:hover .arrowRightBikeCardIcon svg {
+  color: white;
+}
+
+.bikeInsuranceDivParagrapColor{
+  color: #6815E5;
+
+
+}
+.uidNumber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+  font-size: 12px;
+  color: #777777;
+  font-weight: 400;
+}

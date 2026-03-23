@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #EBEBEB;
+
+
+}
+
+.navbarDeatils {
+  margin-top: 16px;
+  width: 80%;
+  height: 60px;
+  background-color: #F5F5F5;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* 3D effect for navbar */
+  padding: 0 20px;
+}
+
+.leftSection{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.imgNavbarLogo {
+  display: flex;
+  align-items: center;
+}
+
+.imgNavbarLogoImg {
+  width: 100px;
+  cursor: pointer;
+}
+
+.pageList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.pageList div,
+.ImformentPageList div {
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  
+}
+
+.pageList div:hover {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+
+.ImformentPageList{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.RenewalsImformentPageList:hover{
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+.claimsImformentPageList{
+  border-radius: 10px;
+  border: 1px solid #141414;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 70px;
+  height: 35px;
+  padding: 0 !important;
+}
+
+.claimsImformentPageList:hover {
+  background-color: #141414;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.LoginImformentPageList{
+  background-color: #141414;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 70px;
+  height: 35px;
+  padding: 0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.LoginImformentPageList:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}

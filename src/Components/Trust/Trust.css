@@ -1,0 +1,238 @@
+.trustDiv {
+  background-color: #FFFFFF;
+  padding-top: 80px;
+}
+
+
+.trustTital {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.trustRstingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 160px;
+  margin-top: 50px;
+}
+
+
+.trustTimeTital {
+  font-size: 39.8px;
+  font-weight: 700;
+  line-height: 44.8px;
+
+  background: linear-gradient(180deg, #4d01ff 0%, #B983FF 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  font-family: sans-serif;
+}
+.trustTimeParagrap{
+  color: black;
+  font-weight: 400 ;
+  line-height: 19.9041px;
+  font-size: 14.9281px;
+  text-align: center  ;
+}
+
+.trustPersintNumber{
+  font-size: 39.8px;
+  font-weight: 700;
+  line-height: 44.8px;
+
+  background: linear-gradient(180deg, #4d01ff 0%, #B983FF 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  font-family: sans-serif;
+
+}
+.trustClaimsPragrap{
+  color: black;
+  font-weight: 400 ;
+  line-height: 19.9041px;
+  font-size: 14.9281px;
+  text-align: center  ;
+}
+.trustSuppertNumber{
+  font-size: 39.8px;
+  font-weight: 700;
+  line-height: 44.8px;
+
+  background: linear-gradient(180deg, #4d01ff 0%, #B983FF 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  font-family: sans-serif;
+}
+.trustSuppertPragrap{
+  color: black;
+  font-weight: 400 ;
+  line-height: 19.9041px;
+  font-size: 14.9281px;
+  text-align: center  ;
+
+}
+
+/* supprot */
+
+.trustSupportDivA{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+.trustSupportDivContainer{
+  background-color: #F5F5F5;
+  width: 550px;
+  height: 518px;
+  border-radius: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.trustSupportDivVideo{
+  border: 1px solid #4F5179;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.vedioClaime{
+  width: 370px;
+  height: 420px;
+  object-fit: cover;
+  pointer-events: none;
+}
+.trustSupportDivTital{
+  font-size: 26.5913px;
+  line-height: 
+  31.9095px;
+  font-weight: 
+  600;
+  text-align: center;  
+}
+
+
+/*  .......... PromisesDiv .....  */
+
+.PromisesDiv{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+
+}
+
+.PromisesDivContainer{
+  background-color: #F5F5F5;
+  width: 550px;
+  height: 518px;
+  border-radius: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap:30px;
+}
+
+.PromisesDivTital{
+  font-size: 26.5913px;
+  line-height: 
+  31.9095px;
+  font-weight: 
+  600;
+  color: #1a1a1a;
+  text-align: center;  
+  margin-bottom: 20px;
+}
+.PromisesDivStar{
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding-top: 5px;
+
+}
+.PromisesDivPragrap{
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #444;
+  margin: 0 60px ;
+  margin-bottom: 50px;
+}
+
+.PromisesDivCustomerProfilDiv{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.customerProfilLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: #D7D7D7;
+  border-radius: 90px 90px 90px ;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.customerProfilName{
+  text-align: center;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+.customerWhire{
+  font-size: 15px;
+  color: #938787;
+}
+.viewMoreDiv{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+  
+}
+.viewMoreDivTital{
+  background-color: #141414 ;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 110px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 45px;
+  cursor: pointer;
+}
